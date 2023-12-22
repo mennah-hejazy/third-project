@@ -1,0 +1,64 @@
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer .footer-main{
+    width: 100%;
+    background: rgb(16, 15, 15);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer .footer-main .title{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(88, 88, 182);
+  
+    
+}
+
+.footer-main .foot{
+    width: 100%;
+    margin: 10px 70px;
+   
+}
+.footer-main .foot .center{
+    font-size: 20px;
+    align-items: center;
+}
+.footer-main .foot .foot-title{
+    color:rgb(139, 139, 241);
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+.footer-main .foot a{
+    display: block;
+    text-decoration: none;
+    margin: 9px 0;
+    color: white;
+}
+.footer-main .foot input{
+    outline: none;
+    width: 300px;
+    height: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    background: rgb(213, 207, 207);
+}
+.footer-main .foot .subscribe{
+    width: fit-content;
+    padding: 5px;
+    height: fit-content;
+    margin: 10px 0;
+    background:linear-gradient(to right ,rgb(68, 0, 255),rgb(255, 0, 64));
+    border-radius: 20px;
+    font-size: 20px;
+}
+.footer-main .foot .subscribe:hover{
+    box-shadow: 0 0 10px rgb(81, 77, 77);
+    scale: 0.9;
+}

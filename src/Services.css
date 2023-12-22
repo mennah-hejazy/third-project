@@ -1,0 +1,186 @@
+.services{
+    width: 100%;
+    height: 140vh;
+    background: linear-gradient(#111,#222);
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+.services .services-title{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    background:linear-gradient(to right, rgb(178, 155, 241),rgb(148, 67, 86));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+.services .part-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 150px;
+    
+}
+.services .part-one .services-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(238, 215, 85, 0.5); ;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+.services .part-one .services-image:hover{
+    scale:1.1;
+}
+.services .part-one .services-sections .services-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.services .part-one .services-sections .services-text{
+    text-align: center;
+}
+.services .part-one .services-sections .services-text h2{
+    color: wheat;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.services .part-one .services-sections .services-text p{
+    color: #0c0c0c;
+}
+.services .part-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/loginnewshoe1.png);
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position: 1500px -180px;
+    z-index: -1;
+}
+
+.services .part-two .login-image img{
+    width: 600px;
+    animation-name: shoe;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.services .part-two .welcome .login-title{
+    color:black;
+    font-size: 20px;
+    margin: 15px 0 30px 0;
+    position: relative;
+    left: 13%;
+}
+.services .part-two .welcome .inputs{
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    margin-left: 50px;
+}
+.services .part-two .welcome .inputs label{
+    font-size: 10px;
+}
+.services .part-two .welcome .inputs input{
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 20px;
+    border: 2px solid rgb(46, 35, 46);
+    border-radius: 10px;
+    padding: 5px;
+}
+.services .part-two .welcome .inputs label{
+    font-size: 15px;
+    font-weight: 100;
+    color: antiquewhite;
+}
+.services .part-two .welcome .inputs h2{
+    font-size: 15px;
+    position: relative;
+    left: 73%;
+    margin: -7px 0 10px 0;
+    cursor: pointer;
+}
+.services .part-two .welcome .inputs button{
+    outline: none;
+    width: 320px;
+    height: 40px;
+    background:linear-gradient(to right ,rgb(68, 0, 255),rgb(255, 0, 64));
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 0 0 20px 0;
+    transition: 0.5s;
+}
+.services .part-two .welcome .inputs button:hover{
+    scale: 0.9;
+    box-shadow: 0 0 10px rgb(8, 8, 8);
+    background:linear-gradient(to right ,rgb(57, 36, 116),rgb(116, 30, 51));
+}
+
+   
+.services .part-two .welcome .inputs .services-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 80px;
+   
+}
+.services .part-two .welcome .inputs .services-icons a{
+    background: white;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: 0.5s;
+    
+}
+.services .part-two .welcome .inputs .services-icons a:hover{
+    scale: 1.1;
+}
+.services .part-two .welcome .inputs .services-icons .go{
+    box-shadow: 0 0 10px rgb(182, 41, 41);
+}
+.services .part-two .welcome .inputs .services-icons .fb{
+    box-shadow: 0 0 10px rgb(41, 41, 146);
+}
+.services .part-two .welcome .inputs .services-icons .tw{
+    box-shadow: 0 0 10px rgb(52, 150, 230);
+}
+.services .part-two .welcome .inputs .services-icons img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@keyframes shoe{
+    0%{
+        translate: 0 10px;
+    }
+    50%{
+        translate: 0 -10px;
+    }
+    100%{
+        translate: 0 10px;
+    }
+}
+
+

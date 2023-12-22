@@ -1,0 +1,80 @@
+.review{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+}
+.review .title2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review .title2 h1{
+    margin-bottom: 50px;
+    font-size: 60px;
+    background:linear-gradient(to right, rgb(178, 155, 241),rgb(148, 67, 86));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+.review .gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 20px 200px;
+}
+.review .opinion{
+    height: auto;
+    border-radius: 10px;
+    width: 500px;
+    background:rgba(193, 159, 199, 0.173);
+    box-shadow: 0 0 10px rgba(157, 253, 231, 0.549);
+    transition: 0.5s;
+}
+.review .images{
+    display: flex;
+    align-items: center;
+}
+
+
+.review .images .imaage{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); ;
+    border-radius: 50%;
+    margin: 20px;
+    transition: 0.5s;
+}
+.review .images .imaage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.review .opinion:hover .imaage{
+    scale: 1.2;
+
+}
+.review .gridd .opinion .stars h1{
+    font-size: 30px;
+    color: wheat;
+   
+}
+.review .gridd .opinion .stars ul li{
+    display: inline-block;
+    color: orange;
+}
+.review .gridd .opinion .text2{
+    padding: 20px;
+    color: #111;
+    transition: 0.5S;
+}
+.review .gridd .opinion:hover .text2{
+    font-weight: 700;
+}
+

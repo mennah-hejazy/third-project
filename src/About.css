@@ -1,0 +1,30 @@
+.container3{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+}
+.container3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.container3 .strips{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container .strips ul li{
+    width: 10%;
+    list-style: none;
+}
+.container .strips ul li img{
+    width: 10px;
+}
